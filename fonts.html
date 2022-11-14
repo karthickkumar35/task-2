@@ -1,0 +1,194 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>font-family</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+		<style>
+		 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+		 
+		 @font-face{
+		 font-family:TitanOne-Regular;
+		 src:url(font/TitanOne-Regular.ttf);
+		 }
+		 
+		    div{
+			border:5px solid red;
+			padding:10px;
+			margin-bottom:5px;
+			}
+			
+			h1{
+			color:green;
+			text-decoration:underline blue wavy 2px;
+			}
+			
+			h2{
+			color:purple;
+			text-transform:capitalize;
+			}
+		 
+			.ab1{
+			font-size:0.8cm;
+			}
+			.ab2{
+			font-size:7mm;
+			}
+			.ab3{
+			font-size:0.2in;
+			}
+			.ab4{
+			font-size:10pt;
+			}
+			
+            .dd{
+			background-color:gray;
+			height:30px;
+			}
+			.re1{
+			background-color:lightblue;
+			width:40%;
+			height=50%;
+			font-size:1rem;
+			}
+			.re2{
+			background-color:pink;
+			font-size:2vw;
+			}
+			.re3{
+			background-color:lightblue;
+			font-size:5vh;
+			}
+			.re4{
+			background-position:2vw;
+			background-color:pink;
+			font-size:70%;
+			}
+			
+			.fs1{
+			font-size:30px;
+			font-style:normal;
+			}
+			.fs2{
+			font-size:30px;
+			font-style:italic;
+			}
+			.fs3{
+			font-size:30px;
+			font-style:oblique;
+			}
+			
+			.fw1{
+			font-size:30px;
+			font-weight:lighter;
+			}
+			.fw2{
+			font-size:30px;
+			font-weight:bold;
+			}
+			.fw3{
+			font-size:30px;
+			font-weight:900;
+			}
+			
+			.ff1{
+			font-family: "Times New Roman", Times, serif;
+			}
+			.ff2{
+			font-family:  Arial, Helvetica, sans-serif;
+			}
+			.ff3{
+			font-family: "manaco",monospace;
+			}
+			.ff4{
+			font-family: "lucida Handwriting",cursive;
+			}
+			.ff5{
+			font-family: "papurs",fantasy;
+			}
+			
+			.gg1{
+			font-size:30px;
+			font-family: 'Dancing Script', cursive;
+			}
+			.gg2{
+			font-size:30px;
+			font-family: 'Indie Flower', cursive;
+			}
+			
+			.font-f{
+			font-family:TitanOne-Regular;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div>
+			<h1>font-size[absolute]</h1>
+			<h2>using cm</h2>
+			<p class="ab1">This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+			<h2>using mm</h2>
+			<p class="ab2">This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+			<h2>using in</h2>
+			<p class="ab3">This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+			<h2>using pt</h2>
+			<p class="ab4">This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+		</div>	
+		<div>
+			<h1>font-size[relative]</h1>
+			<h2>using rem</h2>
+			<section class="dd">
+			<p class="re1">This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+			<h2>using vw</h2></section><br>
+			<p class="re2">This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+			<h2>using vh</h2>
+			<p class="re3">This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+			<h2>using %</h2>
+			<p class="re4">This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+		</div>	
+		<div>
+		    <h1>font-style</h1>
+			<h2>using normal</h2>
+			<p class="fs1">This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+			<h2>using Italic</h2>
+			<p class="fs2">This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+			<h2>using oblique</h2>
+			<p class="fs3">This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+		</div>
+		<div>
+		    <h1>font-weight</h1>
+			<h2>using lighter</h2>
+			<p class="fw1">This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+			<h2>using bold</h2>
+			<p class="fw2">This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+			<h2>using number</h2>
+			<p class="fw3">This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+		</div>
+		<div>
+			<h1>font-family</h1>
+			<h2>using Times New Roman</h2>
+			<p class="ff1">This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+			<h2>using Arial</h2>
+			<p class="ff2">This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+			<h2>using monospace</h2>
+			<p class="ff3">This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+			<h2>using cursive</h2>
+			<p class="ff4">This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+			<h2>using fantasy</h2>
+			<p class="ff5">This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+		</div>	
+		<div>
+		    <h1>Google font</h1>
+			<h2>link</h2>
+			<p class="gg1">This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+			<h2>import</h2>
+			<p class="gg2">This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+		</div>
+		<div>
+		    <h1>saved font</h1>
+			<h2>font-face</h2>
+			<p class="font-f">This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+		</div>
+	</body>
+</html>
